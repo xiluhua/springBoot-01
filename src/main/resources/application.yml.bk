@@ -1,0 +1,18 @@
+debug: true
+person:
+  age: 8
+  birth: 2001/12/08
+  boss: true
+  dog:
+    age: 2
+    name: tiger
+  lastName: 张三123
+  lists: a,b,c
+  maps:
+    k1: a1
+    k2: a2
+server:
+  port: 8001
+spring:
+  profiles:
+    active: dev
