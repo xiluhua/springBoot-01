@@ -73,7 +73,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 		表示当前logger的appender-ref和rootLogger的appender-ref都有效
     -->
     <!-- logger -->
-    <logger name="com.springBoot1" level="warn" />
+    <logger name="com.springBoot1" level="info" />
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="info" additivity="true"></logger>
 
