@@ -8,7 +8,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     <!-- 定义日志的根目录 -->
     <property name="LOG_HOME" value="d:/app/log" />
     <!-- 定义日志文件名称 -->
-    <property name="appName" value="atguigu-springboot"></property>
+    <property name="appName" value="springboot01"></property>
     <!-- ch.qos.logback.core.ConsoleAppender 表示控制台输出 -->
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <!--
@@ -72,7 +72,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 		false：表示只用当前logger的appender-ref，true：
 		表示当前logger的appender-ref和rootLogger的appender-ref都有效
     -->
-    <!-- atguigu logger -->
+    <!-- logger -->
     <logger name="com.atguigu" level="warn" />
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="info" additivity="true"></logger>
